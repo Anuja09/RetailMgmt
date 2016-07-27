@@ -2,9 +2,13 @@
 RetailMgmt Assignment
 
 Steps to run the application on Command Prompt
+
 1.	Browse to project root location
+
 2.	Execute command “gradle clean build” to run build.gradle
+
 3.	Once the build successful, to deploy the application and run, execute the command “java –jar build\libs\<<PROJECT_JAR_NAME>>”
+
 4.	Launch postman and access the RetailMgmt APIs. 
 
 TO register shop
