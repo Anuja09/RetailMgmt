@@ -20,3 +20,7 @@ requestData Sample : {"shopName":"Phoenix+Mall,+Vimannagar,+Pune","shopAddress":
 To get shop details
 
 GET Request Sample : http://localhost:8080/shop/find?longitude=74.00&latitude=17.00
+
+To see the list of shops available in memory,
+
+GET Request Sample : http://localhost:8080/shop/get
