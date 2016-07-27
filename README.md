@@ -12,8 +12,11 @@ Steps to run the application on Command Prompt
 4.	Launch postman and access the RetailMgmt APIs. 
 
 TO register shop
+
 POST Request : http://localhost:8080/shop/add
+
 requestData Sample : {"shopName":"Phoenix+Mall,+Vimannagar,+Pune","shopAddress":{"number":"1", "postCode":411014}}
 
 To get shop details
+
 GET Request Sample : http://localhost:8080/shop/find?longitude=74.00&latitude=17.00
