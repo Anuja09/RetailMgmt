@@ -1,18 +1,18 @@
-package main.java.retail.service;
+package main.java.retail.dao;
 
 import java.util.List;
 
 import main.java.retail.dto.Shop;
 
 /**
- * It is a template for providing retail manager services
+ * It is a template for retail manager data access layer
  * 
  * @author Anuja
  *
  */
-public interface RetailService {
+public interface RetailDAO {
 	/**
-	 * The service method to call add of dao layer
+	 * The dao method adds shop to in memory storage
 	 * 
 	 * @param shop
 	 *            to be added
